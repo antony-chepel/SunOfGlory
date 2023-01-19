@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_sun_of"
+    android:layout_height="match_parent"
+    tools:context=".ncixuhcxgysd.Vfysuaqw">
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53">
+
+        <ImageView
+            android:id="@+id/aooooxixzji"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="10dp"
+            app:srcCompat="@drawable/sun_of_item_1" />
+
+        <ImageView
+            android:id="@+id/skxnzcjnsa"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/sun_of_item_3" />
+
+        <ImageView
+            android:id="@+id/sijdias"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="10dp"
+            app:srcCompat="@drawable/sun_of_item_1" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/tableRow"
+        app:layout_constraintStart_toStartOf="@+id/tableRow"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow">
+
+        <ImageView
+            android:id="@+id/psdolkad"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:srcCompat="@drawable/sun_of_item_3" />
+
+        <ImageView
+            android:id="@+id/odijsjid"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/sun_of_item_1"
+            />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/sun_of_item_4"
+            />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take all cowboys boots in time"
+        android:layout_marginTop="28dp"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/coxvjixc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.07999998" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/coxvjixc"
+        app:layout_constraintEnd_toStartOf="@+id/coxvjixc"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/coxvjixc"
+        app:srcCompat="@drawable/timer_sun" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coxvjixc"
+        app:layout_constraintVertical_bias="0.060000002"
+        app:srcCompat="@drawable/sun_of_item_1" />
+
+    <TextView
+        android:id="@+id/dofj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="West points : x2"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+</androidx.constraintlayout.widget.ConstraintLayout>
